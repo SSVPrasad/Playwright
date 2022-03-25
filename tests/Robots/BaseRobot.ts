@@ -11,9 +11,9 @@ export class BaseDependencies {
    
   }
 
-   async visitWebsite() {
+   async visitWebsite(url: string) {
    
-  await this.page.goto('https://playwright.dev');
+  await this.page.goto(url);
   
     return this;
   }
