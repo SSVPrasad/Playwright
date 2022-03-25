@@ -8,9 +8,9 @@ export class Dependencies extends BaseDependencies{
     
   }
     async visitAmazonWebpage() {
-        const url: string="https://playwright.dev/";
+        const url: string="https://www.amazon.in/";
        
-       await super.visitWebsite();
+       await super.visitWebsite(url);
        
 
       }
